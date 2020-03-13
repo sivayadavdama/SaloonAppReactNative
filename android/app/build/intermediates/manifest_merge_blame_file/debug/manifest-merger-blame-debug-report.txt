@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fixanappointment"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/debug/AndroidManifest.xml:5:5-78
+11-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:4:3-77
+12-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:4:20-74
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:3:3-65
+13-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:3:20-62
+14
+15    <application
+15-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:7:3-16:17
+16        android:name="com.fixanappointment.MainApplication"
+16-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:7:16-47
+17        android:allowBackup="false"
+17-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:7:162-189
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] /Users/shiva/.gradle/caches/transforms-2/files-2.1/074ab397f55d3f4ec630db74b7439ee9/core-1.1.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:7:81-115
+21        android:label="@string/app_name"
+21-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:7:48-80
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:7:116-161
+23        android:theme="@style/AppTheme"
+23-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:7:190-221
+24        android:usesCleartextTraffic="true" >
+24-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/debug/AndroidManifest.xml:9:18-53
+25        <activity
+25-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:9:5-14:16
+26            android:name="com.fixanappointment.MainActivity"
+26-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:9:15-43
+27            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+27-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:9:77-147
+28            android:label="@string/app_name"
+28-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:9:44-76
+29            android:screenOrientation="portrait"
+29-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:9:148-184
+30            android:windowSoftInputMode="adjustResize" >
+30-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:9:185-227
+31            <intent-filter>
+31-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:10:7-13:23
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:11:9-61
+32-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:11:17-58
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:12:9-69
+34-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:12:19-66
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+37-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:15:5-82
+37-->/Users/shiva/Desktop/fix_an_appointment/android/app/src/main/AndroidManifest.xml:15:15-79
+38    </application>
+39
+40</manifest>
